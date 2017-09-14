@@ -19,6 +19,7 @@ public class TouchController : MonoBehaviour {
         GameObject lightGameObject = new GameObject("touch-light");
         Light lightComp = lightGameObject.AddComponent<Light>();
         lightComp.color = Color.blue;
+        lightComp.areaSize = new Vector2(1f, 1f);
         var x = col.gameObject.transform.position.x;
         var y = col.gameObject.transform.position.y;
         var z = col.gameObject.transform.position.z;
