@@ -33,7 +33,7 @@ public class Spawner : MonoBehaviour {
             yield return new WaitForSeconds(waitTime);
 
             float yRotation = transform.rotation.y + Random.Range(minAngle, maxAngle);
-            Quaternion rotation = Quaternion.Euler(transform.rotation.x, yRotation, transform.rotation.z);
+            Quaternion rotation = Quaternion.Euler(gameObject.transform.rotation.x, yRotation, gameObject.transform.rotation.z);
 
             float randomScale = Random.Range(0.01f, scale);
 
