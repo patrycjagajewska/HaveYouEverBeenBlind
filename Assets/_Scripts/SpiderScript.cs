@@ -3,18 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SpiderScript : MonoBehaviour {
+    
+    public float minSpeed = 0.8f;
+    public float maxSpeed = 1.2f;
 
-    Animator anim;
-
-    public float speed = 1f;
-
-	// Use this for initialization
-	void Start () {
-        anim = GetComponent<Animator>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        transform.Translate(Vector3.forward * Time.deltaTime * speed);
+    void Update () {
+        transform.Translate(Vector3.forward * Time.deltaTime * Random.Range(minSpeed, maxSpeed));
     }
 }

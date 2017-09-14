@@ -10,12 +10,11 @@ public class AutoBlinker : MonoBehaviour {
 
     private Light lt;
 
-    void Start()
-    {
+    void Start() {
         lt = GetComponent<Light>();
     }
-    void Update()
-    {
+
+    void Update() {
         float phi = Time.time / duration * 2 * Mathf.PI;
         float amplitude = Mathf.Cos(phi) * intensity + 2 * intensity;
         lt.intensity = amplitude;
