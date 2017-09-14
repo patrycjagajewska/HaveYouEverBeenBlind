@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpiderScript : MonoBehaviour {
+public class AutoMovement : MonoBehaviour {
     
     public float minSpeed = 0.8f;
     public float maxSpeed = 1.2f;

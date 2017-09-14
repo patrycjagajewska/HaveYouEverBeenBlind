@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class TouchController : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    private Rigidbody rigidbody;
+    void Start()
+    {
+        rigidbody = GetComponent<Rigidbody>();
+    }
 
     void OnCollisionEnter(Collision col)
     {
+        rigidbody.velocity = new Vector3(0, 0, 0);
+        rigidbody.useGravity = false;
+        Destroy(gameObject, 1);
+        /*
         GameObject lightGameObject = new GameObject("touch-light");
         Light lightComp = lightGameObject.AddComponent<Light>();
         lightComp.color = Color.blue;
@@ -24,6 +24,7 @@ public class TouchController : MonoBehaviour {
         var y = col.gameObject.transform.position.y;
         var z = col.gameObject.transform.position.z;
         lightGameObject.transform.position = new Vector3(x, y, z);
-        Destroy(col.gameObject);
+        Destroy(col.gameObject);*/
+        
     }
 }
