@@ -26,7 +26,7 @@ public class HUD : MonoBehaviour {
 
     void OnEnable()
     {
-        taskManager.taskFinished += UpdateTasksList;
+        //taskManager.taskFinished += UpdateTasksList;
         UpdateTasksList(taskManager.GetTasks());
     }
 }
