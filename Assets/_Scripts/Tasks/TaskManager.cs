@@ -7,9 +7,16 @@ public class TaskManager : MonoBehaviour {
 
     public Transform remoteController;
 
-	// Use this for initialization
-	void Start () {
-        Object findRemoteControllerTask = new FindTask("Find remote controller", remoteController);
+    public event System.Action<Task> taskFinished;
+
+    public void finishTask(Task finishedTask)
+    {
+
+    }
+
+    // Use this for initialization
+    void Start () {
+        Task findRemoteControllerTask = new FindTask("Find remote controller", remoteController);
         tasks = new ArrayList();
         tasks.Add(findRemoteControllerTask);
 	}

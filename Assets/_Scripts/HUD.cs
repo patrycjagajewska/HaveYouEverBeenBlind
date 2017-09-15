@@ -14,10 +14,9 @@ public class HUD : MonoBehaviour {
         taskManager = FindObjectOfType<TaskManager>();
     }
 
-    void UpdateTasksList()
+    void UpdateTasksList(ArrayList tasks)
     {
         System.Text.StringBuilder sb = new System.Text.StringBuilder();
-        ArrayList tasks = taskManager.GetTasks();
         foreach (Task t in tasks)
         {
             sb.Append("- ").Append(t.GetDescr()).Append("\n");
@@ -25,13 +24,9 @@ public class HUD : MonoBehaviour {
         tasksList.text = sb.ToString();
     }
 
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    void OnEnable()
+    {
+        taskManager.taskFinished += UpdateTasksList;
+        UpdateTasksList(taskManager.GetTasks());
+    }
 }

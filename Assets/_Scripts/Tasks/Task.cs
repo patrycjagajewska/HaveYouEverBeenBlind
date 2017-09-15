@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class Task {
     private string description;
-    private bool isDone;
+    private bool isFinished;
     
     public Task(string descr)
     {
         description = descr;
-        isDone = false;
+        isFinished = false;
     }
 
     public void FinishTask()
     {
-        isDone = true;
+        isFinished = true;
     }
 
     public string GetDescr()
