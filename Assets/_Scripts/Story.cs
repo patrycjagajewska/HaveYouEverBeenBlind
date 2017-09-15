@@ -1,6 +1,7 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Story : MonoBehaviour {
 
@@ -12,6 +13,15 @@ public class Story : MonoBehaviour {
 	public GameObject newGame;
 	public GameObject play;
 	public GameObject quit;
+
+	public Button playButton;
+	public Button quitButton;
+
+	public const string LEVEL_1 = "level1";
+
+	public static void LoadLevel1() {
+		SceneManager.LoadScene(LEVEL_1);
+	}
 
 	// Use this for initialization
 	IEnumerator Start () {
@@ -51,12 +61,18 @@ public class Story : MonoBehaviour {
 		play.SetActive(true);
 		quit.SetActive(true);
 
+		playButton.onClick.AddListener (LoadLevel1);
+		quitButton.onClick.AddListener (quitGame);
 
+	}
+
+	void quitGame() {
+		Application.Quit ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
+		
 	}
 		
 }
