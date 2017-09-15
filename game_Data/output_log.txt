@@ -1,0 +1,43 @@
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 740M (ID=0x1292)
+    Vendor:   NVIDIA
+    VRAM:     2020 MB
+    Driver:   21.21.13.7654
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.049 seconds
+Platform assembly: D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1200 60Hz; virtual: 1920x1200 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.443580 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 373c -> priority: 1 
+You have clicked the button!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.870139 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 738.
+Total: 1.474277 ms (FindLiveObjects: 0.072256 ms CreateObjectMapping: 0.060350 ms MarkObjects: 0.492657 ms  DeleteObjects: 0.848602 ms)
+

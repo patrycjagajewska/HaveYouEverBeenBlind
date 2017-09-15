@@ -6,8 +6,6 @@ public class AutoColorChanger : MonoBehaviour {
 
     private Material material;
 
-    private float duration = 3.0f;
-
 	// Use this for initialization
 	void Start () {
         material = gameObject.GetComponent<Renderer>().material;
