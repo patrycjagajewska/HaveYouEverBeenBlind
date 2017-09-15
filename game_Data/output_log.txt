@@ -21,23 +21,23 @@ Platform assembly: D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Mana
 Loading D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.049 seconds
+- Completed reload, in  0.073 seconds
 Platform assembly: D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\Libraries\OneDrive\VCS\HaveYouEverBeenBlind\game_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1200 60Hz; virtual: 1920x1200 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.443580 ms
+UnloadTime: 1.535448 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 373c -> priority: 1 
+  Thread -> id: fb4 -> priority: 1 
 You have clicked the button!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.870139 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.069160 ms
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 738.
-Total: 1.474277 ms (FindLiveObjects: 0.072256 ms CreateObjectMapping: 0.060350 ms MarkObjects: 0.492657 ms  DeleteObjects: 0.848602 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 720.
+Total: 1.104784 ms (FindLiveObjects: 0.061992 ms CreateObjectMapping: 0.027917 ms MarkObjects: 0.284509 ms  DeleteObjects: 0.729953 ms)
 
